@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=intel "$CFILE" -o "$FILENAME_NOEXT.s"
+gcc -S -masm=intel $CFILE
