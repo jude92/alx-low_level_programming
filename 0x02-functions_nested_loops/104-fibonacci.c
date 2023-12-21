@@ -12,7 +12,7 @@ int count;
 
 printf("%lu, %lu", a, b);
 
-for (count = 2; count < 98; ++count)
+ for (count = 2; count < 98; ++count)
 {
 next = a + b;
 printf(", %lu", next);
